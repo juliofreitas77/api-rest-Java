@@ -18,7 +18,7 @@ public class PacienteController {
     private PacienteRepository repository;
 
     @Autowired
-    public void setMedicoRepository(PacienteRepository repository) {
+    public void setPacienteRepository(PacienteRepository repository) {
         this.repository = repository;
     }
 
